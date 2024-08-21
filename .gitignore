@@ -1,0 +1,12 @@
+node_modules
+
+# Test files
+coverage.data
+coverage
+
+# Build files
+dist
+
+# IDE files
+.DS_Store
+.idea

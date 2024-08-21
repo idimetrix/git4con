@@ -1,0 +1,56 @@
+{
+  "name": "git4con",
+  "description": "Git Contributions",
+  "author": {
+    "name": "Dmitry (Di) Selikhov",
+    "email": "dmitrii.selikhov@gmail.com",
+    "url": "https://www.linkedin.com/in/dimetrix"
+  },
+  "contributors": [
+    {
+      "name": "Dmitry (Di) Selikhov",
+      "email": "dmitrii.selikhov@gmail.com",
+      "url": "https://www.linkedin.com/in/dimetrix"
+    }
+  ],
+  "license": "MIT",
+  "version": "0.0.1",
+  "type": "module",
+  "bin": "./dist/index.js",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/idimetrix/git4con.git"
+  },
+  "keywords": [
+    "github",
+    "git4con"
+  ],
+  "bugs": {
+    "url": "https://github.com/idimetrix/git4con/issues"
+  },
+  "homepage": "https://github.com/idimetrix/git4con#readme",
+  "scripts": {
+    "build": "tsup",
+    "dev": "node ./dist/index.js",
+    "prettier": "prettier --write src/**",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@inquirer/prompts": "5.3.8",
+    "cli-progress": "3.12.0",
+    "ini": "4.1.3",
+    "prompts": "2.4.2"
+  },
+  "devDependencies": {
+    "@types/node": "22.4.1",
+    "@types/prompts": "2.4.9",
+    "prettier": "3.3.3",
+    "tsup": "8.2.4"
+  }
+}
